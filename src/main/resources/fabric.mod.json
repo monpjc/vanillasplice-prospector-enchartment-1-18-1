@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "vanillasplice_prospector_enchartment",
+  "version": "${version}",
+
+  "name": "Prospector Pickaxe Enchartment",
+  "description": "Added to a pickaxe allows you to find ores you cant see",
+  "authors": [
+    "Monpjc"
+  ],
+  "contact": {
+    "homepage": "https://monpjc.com/"
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.monpjc.vanillasplice_prospector_enchartment.Vanillasplice_Prospector_Enchartment"
+    ]
+  },
+  "mixins": [
+    "vanillasplice_prospector_enchartment.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

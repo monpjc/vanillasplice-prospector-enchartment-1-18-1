@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.monpjc.vanillasplice_prospector_enchartment.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [
+    "Vanillasplice_Prospector_Enchartment_Mixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
